@@ -58,14 +58,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Venesa Long Shirt'
             productName8.innerHTML = 'Venesa Long Shirt'
 
-            productPrice1.innerHTML = 320
-            productPrice2.innerHTML = 320
-            productPrice3.innerHTML = 320
-            productPrice4.innerHTML = 320
-            productPrice5.innerHTML = 320
-            productPrice6.innerHTML = 320
-            productPrice7.innerHTML = 320
-            productPrice8.innerHTML = 320
+            productPrice1.innerHTML = 320.00
+            productPrice2.innerHTML = 320.00
+            productPrice3.innerHTML = 320.00
+            productPrice4.innerHTML = 320.00
+            productPrice5.innerHTML = 320.00
+            productPrice6.innerHTML = 320.00
+            productPrice7.innerHTML = 320.00
+            productPrice8.innerHTML = 320.00
             break
 
         case 'shoes':
@@ -87,14 +87,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Suga Leather Shoes'
             productName8.innerHTML = 'Suga Leather Shoes'
 
-            productPrice1.innerHTML = 750
-            productPrice2.innerHTML = 750
-            productPrice3.innerHTML = 750
-            productPrice4.innerHTML = 750
-            productPrice5.innerHTML = 750
-            productPrice6.innerHTML = 750
-            productPrice7.innerHTML = 750
-            productPrice8.innerHTML = 750
+            productPrice1.innerHTML = 750.00
+            productPrice2.innerHTML = 750.00
+            productPrice3.innerHTML = 750.00
+            productPrice4.innerHTML = 750.00
+            productPrice5.innerHTML = 750.00
+            productPrice6.innerHTML = 750.00
+            productPrice7.innerHTML = 750.00
+            productPrice8.innerHTML = 750.00
             break
 
         case 'bags':
@@ -116,14 +116,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Mini Leather Bag'
             productName8.innerHTML = 'Mini Leather Bag'
 
-            productPrice1.innerHTML = 540
-            productPrice2.innerHTML = 540
-            productPrice3.innerHTML = 540
-            productPrice4.innerHTML = 540
-            productPrice5.innerHTML = 540
-            productPrice6.innerHTML = 540
-            productPrice7.innerHTML = 540
-            productPrice8.innerHTML = 540
+            productPrice1.innerHTML = 540.00
+            productPrice2.innerHTML = 540.00
+            productPrice3.innerHTML = 540.00
+            productPrice4.innerHTML = 540.00
+            productPrice5.innerHTML = 540.00
+            productPrice6.innerHTML = 540.00
+            productPrice7.innerHTML = 540.00
+            productPrice8.innerHTML = 540.00
             break
 
         case 'electronics':
@@ -145,14 +145,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Vinia Headphone'
             productName8.innerHTML = 'Vinia Headphone'
 
-            productPrice1.innerHTML = 720
-            productPrice2.innerHTML = 720
-            productPrice3.innerHTML = 720
-            productPrice4.innerHTML = 720
-            productPrice5.innerHTML = 720
-            productPrice6.innerHTML = 720
-            productPrice7.innerHTML = 720
-            productPrice8.innerHTML = 720
+            productPrice1.innerHTML = 720.00
+            productPrice2.innerHTML = 720.00
+            productPrice3.innerHTML = 720.00
+            productPrice4.innerHTML = 720.00
+            productPrice5.innerHTML = 720.00
+            productPrice6.innerHTML = 720.00
+            productPrice7.innerHTML = 720.00
+            productPrice8.innerHTML = 720.00
             break
 
         case 'watches':
@@ -174,14 +174,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Zonio Super Watch'
             productName8.innerHTML = 'Zonio Super Watch'
 
-            productPrice1.innerHTML = 850
-            productPrice2.innerHTML = 850
-            productPrice3.innerHTML = 850
-            productPrice4.innerHTML = 850
-            productPrice5.innerHTML = 850
-            productPrice6.innerHTML = 850
-            productPrice7.innerHTML = 850
-            productPrice8.innerHTML = 850
+            productPrice1.innerHTML = 850.00
+            productPrice2.innerHTML = 850.00
+            productPrice3.innerHTML = 850.00
+            productPrice4.innerHTML = 850.00
+            productPrice5.innerHTML = 850.00
+            productPrice6.innerHTML = 850.00
+            productPrice7.innerHTML = 850.00
+            productPrice8.innerHTML = 850.00
             break
 
         case 'jewelry':
@@ -203,14 +203,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Red Ruby Rings'
             productName8.innerHTML = 'Red Ruby Rings'
 
-            productPrice1.innerHTML = 960
-            productPrice2.innerHTML = 960
-            productPrice3.innerHTML = 960
-            productPrice4.innerHTML = 960
-            productPrice5.innerHTML = 960
-            productPrice6.innerHTML = 960
-            productPrice7.innerHTML = 960
-            productPrice8.innerHTML = 960
+            productPrice1.innerHTML = 960.00
+            productPrice2.innerHTML = 960.00
+            productPrice3.innerHTML = 960.00
+            productPrice4.innerHTML = 960.00
+            productPrice5.innerHTML = 960.00
+            productPrice6.innerHTML = 960.00
+            productPrice7.innerHTML = 960.00
+            productPrice8.innerHTML = 960.00
             break
 
         case 'kitchen':
@@ -232,14 +232,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Slicia Silver Knife'
             productName8.innerHTML = 'Slicia Silver Knife'
 
-            productPrice1.innerHTML = 240
-            productPrice2.innerHTML = 240
-            productPrice3.innerHTML = 240
-            productPrice4.innerHTML = 240
-            productPrice5.innerHTML = 240
-            productPrice6.innerHTML = 240
-            productPrice7.innerHTML = 240
-            productPrice8.innerHTML = 240
+            productPrice1.innerHTML = 240.00
+            productPrice2.innerHTML = 240.00
+            productPrice3.innerHTML = 240.00
+            productPrice4.innerHTML = 240.00
+            productPrice5.innerHTML = 240.00
+            productPrice6.innerHTML = 240.00
+            productPrice7.innerHTML = 240.00
+            productPrice8.innerHTML = 240.00
             break
 
         case 'toys':
@@ -261,14 +261,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Batmobile Batman'
             productName8.innerHTML = 'Batmobile Batman'
 
-            productPrice1.innerHTML = 430
-            productPrice2.innerHTML = 430
-            productPrice3.innerHTML = 430
-            productPrice4.innerHTML = 430
-            productPrice5.innerHTML = 430
-            productPrice6.innerHTML = 430
-            productPrice7.innerHTML = 430
-            productPrice8.innerHTML = 430
+            productPrice1.innerHTML = 430.00
+            productPrice2.innerHTML = 430.00
+            productPrice3.innerHTML = 430.00
+            productPrice4.innerHTML = 430.00
+            productPrice5.innerHTML = 430.00
+            productPrice6.innerHTML = 430.00
+            productPrice7.innerHTML = 430.00
+            productPrice8.innerHTML = 430.00
             break
 
         default:
@@ -290,14 +290,14 @@ function getProductsByCategory(categoryName) {
             productName7.innerHTML = 'Venesa Long Shirt'
             productName8.innerHTML = 'Venesa Long Shirt'
 
-            productPrice1.innerHTML = 320
-            productPrice2.innerHTML = 320
-            productPrice3.innerHTML = 320
-            productPrice4.innerHTML = 320
-            productPrice5.innerHTML = 320
-            productPrice6.innerHTML = 320
-            productPrice7.innerHTML = 320
-            productPrice8.innerHTML = 320
+            productPrice1.innerHTML = 320.00
+            productPrice2.innerHTML = 320.00
+            productPrice3.innerHTML = 320.00
+            productPrice4.innerHTML = 320.00
+            productPrice5.innerHTML = 320.00
+            productPrice6.innerHTML = 320.00
+            productPrice7.innerHTML = 320.00
+            productPrice8.innerHTML = 320.00
             break
     }
 }
@@ -308,4 +308,32 @@ function getFullProduct(product) {
     const productNumber = product.getAttribute('product-number')
 
     getProduct(category, productNumber)
+}
+
+function increment() {
+    let productPrice = document.getElementById('product-price').innerText
+    let totalPrice = document.getElementById('total-price').innerText
+    let count = document.getElementById('count').innerText
+
+    if (parseInt(count) < 25) {
+        count++
+        totalPrice = parseFloat(totalPrice) + parseFloat(productPrice)
+    }
+
+    document.getElementById('count').innerHTML = count
+    document.getElementById('total-price').innerHTML = parseFloat(totalPrice).toFixed(2)
+}
+
+function decrement() {
+    let productPrice = document.getElementById('product-price').innerText
+    let totalPrice = document.getElementById('total-price').innerText
+    let count = document.getElementById('count').innerText
+
+    if (parseInt(count) > 1) {
+        count--
+        totalPrice = parseFloat(totalPrice) - parseFloat(productPrice)
+    }
+
+    document.getElementById('count').innerHTML = count
+    document.getElementById('total-price').innerHTML = parseFloat(totalPrice).toFixed(2)
 }
