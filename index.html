@@ -7,6 +7,8 @@
     <title>SK Shopping</title>
 
     <link rel="stylesheet" href="./style.css">
+
+    <script src="./products.js"></script>
 </head>
 
 <body>
@@ -14,20 +16,20 @@
     <header onclick="getClothesProducts()">Products</header>
 
     <div class="navbar">
-        <span class="category" id="clothes" onclick="getClothesProducts()">Clothes</span>
-        <span class="category" id="shoes" onclick="getShoesProducts()">Shoes</span>
-        <span class="category" id="bags" onclick="getBagsProducts()">Bags</span>
-        <span class="category" id="electronics" onclick="getElectronicsProducts()">Electronics</span>
-        <span class="category" id="watches" onclick="getWatchesProducts()">Watches</span>
-        <span class="category" id="jewelry" onclick="getJewelryProducts()">Jewelry</span>
-        <span class="category" id="kitchen" onclick="getKitchenProducts()">Kitchen</span>
-        <span class="category" id="toys" onclick="getToysProducts()">Toys</span>
+        <span class="category" id="clothes" onclick="getProductsByCategory('clothes')">Clothes</span>
+        <span class="category" id="shoes" onclick="getProductsByCategory('shoes')">Shoes</span>
+        <span class="category" id="bags" onclick="getProductsByCategory('bags')">Bags</span>
+        <span class="category" id="electronics" onclick="getProductsByCategory('electronics')">Electronics</span>
+        <span class="category" id="watches" onclick="getProductsByCategory('watches')">Watches</span>
+        <span class="category" id="jewelry" onclick="getProductsByCategory('jewelry')">Jewelry</span>
+        <span class="category" id="kitchen" onclick="getProductsByCategory('kitchen')">Kitchen</span>
+        <span class="category" id="toys" onclick="getProductsByCategory('toys')">Toys</span>
     </div>
 
-    <div class="container">
+    <div class="products-container">
         <div class="row">
-            <div class="cell">
-                <img class="product-image" id="product-image1" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="1" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image1" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name1">Venesa Long Shirt</p>
@@ -37,8 +39,8 @@
                     </span>
                 </div>
             </div>
-            <div class="cell">
-                <img class="product-image" id="product-image2" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="2" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image2" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name2">Venesa Long Shirt</p>
@@ -48,8 +50,8 @@
                     </span>
                 </div>
             </div>
-            <div class="cell">
-                <img class="product-image" id="product-image3" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="3" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image3" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name3">Venesa Long Shirt</p>
@@ -59,8 +61,8 @@
                     </span>
                 </div>
             </div>
-            <div class="cell">
-                <img class="product-image" id="product-image4" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="4" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image4" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name4">Venesa Long Shirt</p>
@@ -72,8 +74,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="cell">
-                <img class="product-image" id="product-image5" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="5" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image5" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name5">Venesa Long Shirt</p>
@@ -83,8 +85,8 @@
                     </span>
                 </div>
             </div>
-            <div class="cell">
-                <img class="product-image" id="product-image6" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="6" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image6" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name6">Venesa Long Shirt</p>
@@ -94,8 +96,8 @@
                     </span>
                 </div>
             </div>
-            <div class="cell">
-                <img class="product-image" id="product-image7" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="7" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image7" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name7">Venesa Long Shirt</p>
@@ -105,8 +107,8 @@
                     </span>
                 </div>
             </div>
-            <div class="cell">
-                <img class="product-image" id="product-image8" src="./assets/venesa-long-shirt.jpg" alt="image"
+            <div class="cell" product-number="8" product-cateogry="clothes" onclick="getFullProduct(this)">
+                <img class="product-image" id="product-image8" src="./assets/venesa-long-shirt.jpg" alt="Venesa Long Shirt"
                     width="250px">
                 <div class="product-details">
                     <p class="product-name" id="product-name8">Venesa Long Shirt</p>
@@ -114,6 +116,27 @@
                         <span>$</span>
                         <span id="product-price8">320</span>
                     </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <div class="full-product">
+            <img id="product-full-image" src="./assets/venesa-long-shirt-full.jpg" alt="Venesa Long Shirt" width="625px">
+        </div>
+        <div class="full-product">
+            <div class="product-full-details">
+                <p class="product-name" id="product-name">Venesa Long Shirt</p>
+                <span class="product-price">
+                    <span id="dollar">$</span>
+                    <span id="product-price">320</span>
+                </span>
+                <div id="product-description">Introducing the Venesa Long Shirt, a perfect blend of elegance and comfort. This
+                    timeless piece features a soothing
+                    grey-blue hue, enhancing your style with a touch of sophistication. Crafted with meticulous detail, the
+                    shirt's
+                    elongated design adds a contemporary flair, making it an ideal choice for both casual and formal occasions.
                 </div>
             </div>
         </div>
