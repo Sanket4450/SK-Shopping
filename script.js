@@ -6,7 +6,10 @@ function getProductsByCategory(categoryName) {
     })
 
     const productsContainer = document.querySelector('.products-container')
+    const productContainer = document.querySelector('.product-container')
+
     productsContainer.style.display = 'flex'
+    productContainer.style.display = 'none'
 
     const productImage1 = document.getElementById('product-image1')
     const productImage2 = document.getElementById('product-image2')
